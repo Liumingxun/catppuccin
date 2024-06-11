@@ -57,8 +57,6 @@ collaborators:
     url: https://github.com/Daeraxa
   - &daveyholler
     url: https://github.com/daveyholler
-  - &davfsa
-    url: https://github.com/davfsa
   - &davidbgonz
     url: https://github.com/davidbgonz
   - &daylinmorgan
@@ -145,6 +143,8 @@ collaborators:
     url: https://github.com/likendev
   - &lighttigerXIV
     url: https://github.com/lighttigerXIV
+  - &liumingxun
+    url: https://github.com/Liumingxun
   - &lokesh-krishna
     url: https://github.com/lokesh-krishna
   - &LudoPinelli
@@ -521,6 +521,11 @@ ports:
     color: teal
     current-maintainers: [*sgoudham]
     past-maintainers: [*WitherCubes]
+  daisyui:
+    name: daisy UI
+    categories: [development]
+    platform: agnostic
+    current-maintainers: [*liumingxun]
   delta:
     name: delta
     categories: [cli]
@@ -642,7 +647,7 @@ ports:
     platform: [linux, macos, windows]
     icon: jetbrains
     color: text
-    current-maintainers: [*kkrypt0nn, *davfsa]
+    current-maintainers: [*kkrypt0nn]
   floris-board:
     name: FlorisBoard
     categories: [system]
